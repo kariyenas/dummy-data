@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'dummy_data'
+DummyData.give_details
