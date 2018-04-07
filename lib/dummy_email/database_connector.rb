@@ -1,5 +1,5 @@
 require 'mysql2'
-# Class for database operations
+# for database connection and operations
 class DataBaseConnector
   def initialize(username, pass, db_name)
     @con = Mysql2::Client.new(host: 'localhost', username: username,
